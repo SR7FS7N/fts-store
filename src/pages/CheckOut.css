@@ -1,0 +1,86 @@
+/* Checkout page styles */
+.checkout-root {
+  padding: 28px;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial;
+  background: linear-gradient(180deg, #f8fafc, #ffffff);
+  min-height: 60vh;
+}
+.checkout-card {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  max-width: 920px;
+  margin: 0 auto;
+}
+.checkout-left {
+  flex: 0 0 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.checkout-img {
+  width: 280px;
+  height: 280px;
+  object-fit: contain;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #ffffff, #f1f5f9);
+  padding: 8px;
+  box-shadow: 0 8px 24px rgba(2, 6, 23, 0.06);
+}
+.checkout-right {
+  flex: 1;
+  background: linear-gradient(180deg, #ffffff, #fbfdff);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+}
+.title {
+  margin: 0 0 10px 0;
+  color: #0b1220;
+}
+.meta {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.chip {
+  background: linear-gradient(90deg, #60a5fa, #7c3aed);
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+}
+.price {
+  font-size: 1.1rem;
+  color: #0f172a;
+  margin-bottom: 16px;
+}
+.actions {
+  display: flex;
+  gap: 10px;
+}
+.btn-primary {
+  background: linear-gradient(90deg, #4f46e5, #06b6d4);
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  filter: brightness(1.02);
+}
+.btn-ghost {
+  background: transparent;
+  border: 1px solid #cbd5e1;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.checkout-empty {
+  padding: 40px;
+  text-align: center;
+  color: #475569;
+}
